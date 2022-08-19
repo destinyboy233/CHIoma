@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  .sectionA {
+    background-image: url(./img/sofaygo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+ 
+ .sectionA hr {
+    width: 1366px;
+    height: 8px;
+    background: orangered;
+ }
+  .all {
+    margin-top: -44px;
+    margin-left: 950px;
+    display: flex;
+    justify-content: space-between;
+} 
+.btn button {
+      background-color: black;
+      border: 1px solid white;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 10%;
+ }
+ .btns button {
+    background-color: orangered;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10%;
+ }
+  .btnse button {
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10%;
+  }
+  .god button {
+    background-color: orangered;
+    color: white;
+    padding: 16px 70px;
+    border-radius: 10px;
+    font-size: large;
+    margin-top: 35px;
+  }
+  .section {
+    margin-top: 105px;
+    text-align: center;
+  }
+
+  .section .section__bottom h1 {
+    color: white;
+    font-size: 50px;
+  }
+  .section .section__bottom p {
+    color: white;
+    font-size: 20px;
+  }
+  h6 {
+    margin-top: 100px;
+  }
+ .sectionB {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+ }
+
+   .sectionB form {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+   }
+   .span {
+    font-size: x-large;
+   }
+   .sectionB form .content {
+    flex: 1;
+    border: 1px solid gray;
+    display: flex;
+    padding: 8px;
+    border-radius: 7px;
+    column-gap: 5px;
+    height: 50px;
+   }
+   .sectionB form .content .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+   }
+   .sectionB form .content .icon img {
+    width: 20px;
+    height: 20px;
+   }
+    .sectionB form .content input {
+        flex: 1;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    }
+    .sectionB form button {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    background-color: orangered;
+    }
+    .sectionB p {
+        text-align: center;
+        margin-top: 50px;
+        font-size: xx-large;
+    }
+    .sectionC {
+      margin-top: 30px;
+      background-color: #f9f9f9;
+    }
+
+    .sectionC .well {
+        display: flex;
+        justify-content: space-evenly;
+        object-fit: contain;
+    }
+    .sectionC .well img:hover {
+      border: 3px solid orangered;
+      cursor: pointer;
+  }
+    .sectionC .well span {
+      color: grey;
+      font-size: 15px;
+  }
+    .sectionC .well2 {
+         margin-top: 40px;  
+        display: flex;
+        justify-content: space-evenly;
+        object-fit: contain;
+    }
+    .sectionC .well2 img:hover {
+      border: 3px solid orangered;
+      cursor: pointer;
+    }
+    .sectionC .well3 {  
+       display: flex;
+       justify-content: space-evenly;
+       object-fit: contain;
+   }
+   .sectionC 
+    button {  
+    background: orangered;
+    color: #fff;
+    width: 300px;
+    height: 50px;
+    font-size: large;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.imag{
+  margin-left: 200px;
+}
+.container{
+  display: flex;
+}
+.paragraph{
+  font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 10px;
+}
+.anchor{
+  font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+  font-weight: 100;
+  line-height: 1.2;
+  font-size: 36px;
+  margin-bottom: 17px;
+  display: block;
+  padding: 10px;
+  
+}
+
+.anchor:hover{
+  transition: ease;
+  color: red;
+}
+.ago{
+  display: flex;
+}
+
+.sectionE{
+  background-image: url(./hp_creator_image_featured_artists@2x-3007d170.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 121px;
+  height: 300px;
+  width: 1400px;
+  margin-top: -2px;
+}
+.fools{
+  margin-top: 2%;
+  color: black;
+}
+.sectionE .text{
+  color: white;
+  padding-top: 55px;
+  padding-left: 50px;
+}
+.sectionE .text h1{
+  font-size: 40px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionE .text p{
+  margin-top: 25px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionE .text .button{
+  font-size: 18px;
+  color: white;
+  background: black;
+  border: 1px solid white;
+  padding: 15px 45px;
+  border-radius: 5px;
+}
+.sectionE .text .button:hover{
+  cursor: pointer;
+}
+.button22{
+  padding-top: 35px;
+}
+.sectionG .tired{
+  margin-top: 70px;
+  text-align: center;
+}
+.sectionG .tired h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sectionG .tired p{
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sectionG  .tired_button{
+  font-size: 21px;
+  padding: 10px;
+  width: 220px;
+  background: orangered;
+  border-radius: 5px;
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+  margin-left: -2px;
+}
+
+@media (min-width:481px) and (max-width:1024px) {
+  form{
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width:480px){
+    form{
+        width: 100%;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+}
+.alls {
+  margin-top: 5px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+} 
+.btnss button {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10%;
+}
+.btns button {
+  background-color: orangered;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 10%;
+}
+  

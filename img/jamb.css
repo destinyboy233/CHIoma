@@ -1,0 +1,41 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.kart{
+   
+text-align: center;
+background-image: url(./img/3.jpg);
+
+}
+.spotify{
+text-align:center ; 
+
+
+
+}
+
+.grant{
+    
+    border: 2px solid gray;
+   width: max-content;
+   height: max-content;
+   margin: auto;
+   
+}
+.som{
+
+background:purple ;
+width: 50px;
+height: 30px;
+margin: auto;
+    
+}
+.jig{
+    background:purple ;
+    width: 70px;
+    height: 50px;
+    margin: auto;
+
+}
